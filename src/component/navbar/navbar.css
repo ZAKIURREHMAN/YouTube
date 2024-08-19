@@ -1,0 +1,121 @@
+.container {
+  height: 55px;
+  width: 100%;
+  display: flex;
+}
+.left-logo {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-inner-data {
+  height: 24px;
+  width: 138px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.left-manue-bar {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.left-you-tube-icon-text {
+  height: 20px;
+  width: 90px;
+  display: flex;
+  gap: 2px;
+}
+.left-you-tube-text {
+  font-family: "Freeman", sans-serif;
+}
+.searching-bar-icons {
+  border: 1px solid rgb(203, 203, 203);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 85%;
+  display: flex;
+}
+.searching-bar {
+  width: 85%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+.inner-searching-bars {
+  height: 40px;
+  width: 600px;
+  display: flex;
+  border: 2px solid rgb(203, 203, 203);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.searching-input {
+  width: 538px;
+  height: 40px;
+}
+.searching-input input {
+  outline: none;
+  border: none;
+  height: 34px;
+  width: 99%;
+}
+.searching-button {
+  border: 1px solid rgb(203, 203, 203);
+  width: 63px;
+  background-color: rgb(246, 246, 246);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-right: none;
+  border-bottom: none;
+  border-top: none;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.searching-button:hover {
+  background-color: rgb(229, 228, 228);
+}
+.inner-voice-recorder {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: rgb(246, 246, 246);
+}
+.inner-voice-recorder:hover {
+  background-color: rgb(229, 228, 228);
+}
+.navbar-icons {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.live-icon {
+  height: 23px;
+  width: 23px;
+}
+.notification-icon {
+  height: 23px;
+  width: 23px;
+}
+.user-profile {
+  height: 33px;
+  width: 33px;
+  border-radius: 50px;
+}
+.user-profile img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50px;
+}

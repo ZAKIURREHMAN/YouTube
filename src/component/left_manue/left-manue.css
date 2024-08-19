@@ -1,0 +1,63 @@
+.manue-container{
+    height: 100%;
+    width: 15%;
+
+}
+.first-manue-box{
+    height: 214px;
+    border: 2px solid rgb(203, 203, 203);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.manue-single-item{
+    height: 40px;
+    cursor: pointer;
+}
+.manue-single-item:hover{
+    background-color: rgb(240, 238, 238);
+}
+.handel-icon-text{
+    margin-left: 24px;
+    margin-top: 8px;
+    height: 24px;
+    display: flex;
+}
+.manu-icons{
+    height: 24px;
+    width: 24px;
+}
+.manue-text{
+    height: 24px;
+    width: 100%;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+.second-manue-box{
+    height: 314px;
+    border: 2px solid rgb(203, 203, 203);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+ #show-more{
+    margin-left: 24px;
+ }
+.handel-only-third-manu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.third-manue-box span{
+    margin-left: 24px;
+    color:rgb(120, 119, 119);
+}
