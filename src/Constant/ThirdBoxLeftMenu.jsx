@@ -1,4 +1,4 @@
-const ThirdBoxLeftManueApi = [
+const ThirdBoxLeftMenu = [
     {
         id:1,
         url:'./subscriber/Frame 32.png',
@@ -27,4 +27,4 @@ const ThirdBoxLeftManueApi = [
     },
 ]
 
-export default ThirdBoxLeftManueApi;
+export default ThirdBoxLeftMenu;

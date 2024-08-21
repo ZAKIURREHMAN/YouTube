@@ -1,4 +1,4 @@
-const FirstBoxLeftManueApi = [
+const FirstBoxLeftMenu = [
     {
         id:1,
         url:'./left_options/svg14.png',
@@ -21,4 +21,4 @@ const FirstBoxLeftManueApi = [
         name:"Subscriptions",
     },
 ]
-export default FirstBoxLeftManueApi
+export default FirstBoxLeftMenu

@@ -1,4 +1,4 @@
-const SecondBoxLeftManue = [
+const SecondBoxLeftMenu = [
     {
         id:1,
         url:'./left_options/svg18.png',
@@ -26,4 +26,4 @@ const SecondBoxLeftManue = [
         name:"Pop",
     },
 ]
-export default SecondBoxLeftManue
+export default SecondBoxLeftMenu
