@@ -1,0 +1,144 @@
+.play-video-container {
+  height: 100%;
+  margin-top: 30px;
+  display: flex;
+}
+
+.view-video {
+  height: 515px;
+  width: 941px;
+  margin-left: 30px;
+}
+
+.video-suggestions {
+  width: calc(100vw - 941px);
+}
+
+.video-title {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.view-icons {
+  display: flex;
+}
+.views {
+  font-family: "Open Sans", sans-serif;
+
+  width: 240px;
+  color: rgb(142, 142, 142);
+}
+.play-video-icons {
+  font-family: "Roboto Condensed", sans-serif;
+
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  gap: 30px;
+  margin-left: 60px;
+}
+.channel-details {
+  height: 200px;
+}
+.play-video-logo-subscribe {
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 34px;
+}
+.logo-name {
+  display: flex;
+  gap: 30px;
+}
+.play-video-logo {
+  height: 48px;
+  width: 48px;
+}
+.play-video-logo img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.channel-name-subscriber-number {
+  height: 48px;
+  width: 198px;
+  font-family: "Roboto", sans-serif;
+}
+.play-video-subscribe-button {
+  height: 35px;
+  width: 94px;
+  cursor: pointer;
+}
+.play-video-subscribe-button button {
+  background-color: rgb(209, 0, 0);
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+}
+.play-video-description {
+  margin-left: 40px;
+  font-family: "Roboto", sans-serif;
+}
+.show-more-button {
+  margin-left: 40px;
+  height: 35px;
+}
+.show-more-button button {
+  cursor: pointer;
+  height: 100%;
+  border: none;
+  outline: none;
+  background-color: rgb(228, 228, 228);
+}
+
+.play-video-right-said{
+  width: 390px;
+  height: 134px;
+  margin-left: 50px;
+  display: flex;
+  gap: 15px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+.right-said-video-thumbnail {
+  width: 169px;
+  height: 100%;
+  border: 2px solid gray;
+}
+.right-said-video-thumbnail img {
+  height: 100%;
+  width: 100%;
+}
+.display-time {
+  margin-top: -23px;
+  color: white;
+}
+.display-time span {
+  display: inline-block;
+  margin-left: 75%;
+  margin-top: -15px;
+}
+.right-said-video-data {
+  width: 215px;
+}
+.right-said-video-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.right-said-you-tube-channel {
+  margin-top: 20px;
+  color: rgb(142, 142, 142);
+  font-family: "Open Sans", sans-serif;
+}
+.play-video-view-and-hours {
+  color: rgb(142, 142, 142);
+  font-family: "Open Sans", sans-serif;
+}

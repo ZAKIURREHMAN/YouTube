@@ -1,12 +1,12 @@
 import "./left-manue.css";
-import FirstBoxLeftManueApi from "./FirstBoxLeftManueApi";
-import SecondBoxLeftManue from "./SecondBoxLeftManue";
-import ThirdBoxLeftManueApi from "./ThirdBoxLeftManueApi";
+import FirstBoxLeftMenu from '../../Constant/FirstBoxLeftMenu'
+import SecondBoxLeftMenu from '../../Constant/SecondBoxLeftMenu'
+import ThirdBoxLeftMenu from '../../Constant/ThirdBoxLeftMenu'
 function LeftManue() {
   return (
     <div className="manue-container">
       <div className="first-manue-box">
-        {FirstBoxLeftManueApi.map((item) => ( 
+        {FirstBoxLeftMenu.map((item) => ( 
           <div key={item.id} >
             <div className="manue-single-item" key={item.id}>
               <div className="handel-icon-text">
@@ -23,7 +23,7 @@ function LeftManue() {
       </div>
       <br />
       <div className="second-manue-box">
-        {SecondBoxLeftManue.map((item) => (
+        {SecondBoxLeftMenu.map((item) => (
           <div key={item.id} >
             <div className="manue-single-item">
               <div className="handel-icon-text">
@@ -43,7 +43,7 @@ function LeftManue() {
       <div className="third-manue-box">
         <span>SUBSCRIPTIONS</span>
       </div>
-      {ThirdBoxLeftManueApi.map((item) => (
+      {ThirdBoxLeftMenu.map((item) => (
         <>
           <div className="manue-single-item" key={item.id}>
             <div className="handel-icon-text">
